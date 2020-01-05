@@ -33,7 +33,7 @@ class SchoolYearController {
     // ↓↓↓ GET ↓↓↓
 
     @GetMapping
-    StandardResponse<SchoolYearDTO.List> getSchoolYear() {
+    StandardResponse<SchoolYearDTO.List> getSchoolYears() {
         return schoolYearService.getAllSchoolYears(true);
     }
 

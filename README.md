@@ -6,12 +6,13 @@ The general-info service consists of data that are used as common information ac
 
 This service uses [genuniv-common-service](https://github.com/carzanodev/genuniv-common-service) as its chassis.
 
+# 2. Relations Diagram
 ![general-info](./.assets/genuniv-general-info-service.png)
 
-# 2. Access Endpoints
+# 3. Access Endpoints
 1. `/api/v1/school-year`
 2. `/api/v1/school-period`
 3. `/api/v1/schedule`
 
-# 3. Data Dependencies
+# 4. Data Dependencies
 The general-info service does not need data from the other services.   
